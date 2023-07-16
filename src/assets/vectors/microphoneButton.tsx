@@ -1,0 +1,36 @@
+const MicrophoneButton = (props: any) => (
+  <svg
+    width="17"
+    height="22"
+    viewBox="0 0 17 22"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      x="5.33398"
+      y="1"
+      width="6.66667"
+      height="12.2222"
+      rx="3"
+      stroke={props.stroke}
+      strokeWidth="1.5"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M1.25 9.88932C1.25 11.8563 2.0314 13.7428 3.42229 15.1337C4.81319 16.5246 6.69964 17.306 8.66667 17.306C10.6337 17.306 12.5201 16.5246 13.911 15.1337C15.3019 13.7428 16.0833 11.8563 16.0833 9.88932"
+      stroke={props.stroke}
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M8.66602 20.9996V18.7773"
+      stroke={props.stroke}
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+)
+
+export default MicrophoneButton
